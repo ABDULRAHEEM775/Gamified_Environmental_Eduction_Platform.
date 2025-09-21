@@ -195,7 +195,7 @@ export default function RecyclingGame({ onGameComplete }) {
                 onClick={() => setGameState("playing")}
                 className="px-6 py-3 bg-green-500 text-white rounded-lg shadow-md hover:bg-green-600 transition-colors"
               >
-                Let's Play!
+              {Let's Play!}
               </button>
             )}
           </div>
@@ -255,4 +255,5 @@ export default function RecyclingGame({ onGameComplete }) {
       </div>
     </DndProvider>
   );
+
 }
